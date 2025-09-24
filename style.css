@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+
+.left {
+  width: 30%;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.right {
+  width: 70%;
+  padding: 20px 30px;
+}
+
+.profile-pic {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section-title {
+  background: #222;
+  padding: 5px 10px;
+  margin: 20px 0 10px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.left p {
+  margin-bottom: 15px;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.left ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.box {
+  border: 2px solid #333;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  background: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.exp h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.exp ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}

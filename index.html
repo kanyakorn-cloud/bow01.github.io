@@ -1,22 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Resume - Kanyakorn Tengchangreed</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden; /* ซ่อน scroll bar */
-        }
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain; /* ปรับขนาดรูปให้พอดีกับหน้าจอ */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Resume - Kanyakorn Tengchangreed</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="Resume.png" alt="Resume - Kanyakorn">
+  <div class="container">
+    
+    <!-- Left Column -->
+    <div class="left">
+      <div class="profile-pic">
+        <img src="profile.jpg" alt="Profile Picture">
+      </div>
+      <h2 class="section-title">CONTACT</h2>
+      <p><strong>Phone</strong><br>0655833496</p>
+      <p><strong>Email</strong><br>s6604022620203@email.kmutnb.ac.th</p>
+      <p><strong>Address</strong><br>PRoad, Wongsawang, Bangsue,<br>Bangkok 10800</p>
+      
+      <h2 class="section-title">EDUCATION</h2>
+      <p>
+        <strong>English:</strong> Bachelor's degree, King Mongkut’s University of Technology North Bangkok,<br>
+        Department of Mathematics,<br>
+        Mathematics in Computer Science
+      </p>
+
+      <h2 class="section-title">EXPERTISE</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Node.js, SQL</li>
+        <li>UI/UX Design</li>
+      </ul>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right">
+      <h1 class="name">KANYAKORN <br> TENGCHANGREED</h1>
+
+      <div class="box">
+        <h2 class="subtitle">ABOUT ME</h2>
+        <p>
+          "A results-driven third-year Computer Science student. My project experience, including a database system for a pet food store, has provided me with practical skills in creating user-friendly applications. I am actively seeking an opportunity to contribute my skills to a team."
+        </p>
+      </div>
+
+      <div class="box">
+        <h2 class="subtitle">EXPERIENCE</h2>
+        <div class="exp">
+          <h3>● Database Programming Project</h3>
+          <ul>
+            <li>Designed and developed a web application to manage product and customer data.</li>
+            <li>Technologies used: Visual Studio 2022 C#</li>
+            <li>Result: Created an efficient system with a user-friendly interface.</li>
+          </ul>
+        </div>
+
+        <div class="exp">
+          <h3>● Project Super Battle City</h3>
+          <ul>
+            <li>Developed a tank combat game with a system to select various game modes and levels.</li>
+            <li>Technologies used: Visual Studio 2022 C#</li>
+            <li>Result: Successfully created a game with diverse and engaging gameplay.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>
